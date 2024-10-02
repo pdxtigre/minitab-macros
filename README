@@ -7,7 +7,10 @@
 #  non-conforming units.  
 #
 #  Suppose C1 contains the number of defects (or defectives) and C2 is the total
-#  number of items that were tested.  Go to View > Show Command Line/History
+#  number of items that were tested.  
+#  C3 C4 columns contains the subset of the data that determine the control limits to be calculated from
+#
+#  Go to View > Show Command Line/History
 #  In the Command Line pane, type the command
 #
 #    %Standard2 C1 C2 C3 C4
@@ -17,7 +20,7 @@
 #  Using an optional subcommand, you can use a column of dates to label the X axis.  
 #  Suppose the dates are in C3.  In the Command Line pane, type
 #
-#    %Standard C1 C2 C3 C4;
+#    %Standard2 C1 C2 C3 C4;
 #    Labels C5.
 #
 #  Click Run.
